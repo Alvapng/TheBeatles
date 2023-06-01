@@ -1,0 +1,123 @@
+#FondoRojo{
+    background-image: url(../imagenes/descarga\ \(17\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+.fondoD{
+    background-image: url(../imagenes/beatles-1-1-1024x740.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.fondoh{
+    background-image: url(../imagenes/THE-BEATLES.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.fondop{
+    background-image: url(../imagenes/The-Beatles-peliculas-900x506.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.sinopsis{
+    font-size: 32px;
+}
+h1{
+    color: #52C0DE;
+    font-family: fantasy;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 350px;
+}
+ul{
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: 30px;
+}
+h2{
+    font-family: fantasy;
+    font-size: 40px;
+    color: #202020
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja0{
+    height: 50px;
+    width: 1340px;
+    margin-top: 0px;
+    background-color: #116D91;
+    position: sticky; top: 10px;
+}
+.caja1{
+    position: sticky;
+}
+iframe{
+    margin-left: 350px;
+}
+.li{
+    color: #98D3E3;
+    padding-left: 100px;
+    display: inline;
+}
+.integrantes{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #116D91;
+    height: 400px;
+    width: 1340px;
+}    
+.imagen1{
+    margin-left: 450px;
+}
+.imagen2{
+    margin-left: 350px;
+}
+.imagen3{
+    height: 500px;
+    width: 400px;
+    margin-left: 450px;
+}
+.imagen4{
+    height: 500px;
+    width: 450px;
+    margin-left: 450px;
+}
+
+.pps{
+    height: 500px;
+    width: 500px;
+    margin-left: 400px;
+}
+.ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: block;
+    font-size: 24px;
+}
+.main{
+    font-size: 24px;
+}
+.footer{
+    height: 50px;
+    width: 1340px;
+    margin-top: 0px;
+    background-color: #116D91;
+}
+.pfooter{
+    color: #98D3E3;
+    text-align: center;
+}
