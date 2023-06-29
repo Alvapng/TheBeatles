@@ -1,0 +1,388 @@
+#FondoRojo{
+    background-image: url(../imagenes/descarga\ \(17\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+.fondoD{
+    background-image: url(../imagenes/beatles-1-1-1024x740.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.fondoh{
+    background-image: url(../imagenes/THE-BEATLES.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+
+.fondop{
+    background-image: url(../imagenes/The-Beatles-peliculas-900x506.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.sinopsis{
+    font-size: 28px;
+    margin-left: 30px;
+}
+h1{
+    color: #52C0DE;
+    font-family: fantasy;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 350px;
+}
+ul{
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: 30px;
+}
+h2{
+    font-family: fantasy;
+    font-size: 40px;
+    color: #202020
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja0{
+    height: 50px;
+    width: 1340px;
+    margin-top: 0px;
+    background-color: #116D91;
+}
+.caja1{
+    position: sticky;
+}
+.iframe{
+    margin-left: 350px;
+}
+.li{
+    color: #98D3E3;
+    padding-left: 100px;
+    display: inline;
+}
+.integrantes{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #116D91;
+}    
+.imagen1{
+    margin-left: 450px;
+}
+.imagen2{
+    margin-left: 350px;
+}
+.imagen3{
+    height: 500px;
+    width: 400px;
+    margin-left: 450px;
+}
+.imagen4{
+    height: 500px;
+    width: 450px;
+    margin-left: 450px;
+}
+
+.pps{
+    height: 500px;
+    width: 500px;
+    margin-left: 35px;
+}
+.ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: block;
+    font-size: 24px;
+}
+.main{
+    font-size: 24px;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #116D91;
+    margin-bottom: 0px;
+}
+.footer1{
+    height: 50px;
+    width: 200%;
+    background-color: #116D91;
+    margin-bottom: 0px;
+}
+.pfooter{
+    color: #98D3E3;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "imagen info"
+    "canciones canciones"
+    "lista video";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 500px 100px 500px;
+}
+
+.grtitulo{
+    grid-area: titulo;
+}
+.grimagen{
+    grid-area: imagen;
+}
+.grinfo{
+    grid-area: info;
+}
+.grcanciones{
+    grid-area: canciones;
+}
+.grlista{
+    grid-area: lista;
+}
+.grvideo{
+    grid-area: video;
+}
+.aa{
+    font-size: 30px;
+    text-align: center;
+}
+.bb{
+    margin-left: 25px;
+}
+.cc{
+    font-size: 35px;
+}
+.border{
+    border: 3px;
+    border: #202020;
+}
+.grid-in{
+    display: grid;
+    grid-template-areas: 
+    "nav nav"
+    "info video"
+    "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px 100px; 
+}
+.inav{
+    grid-area: nav;
+}
+.iinfo{
+    grid-area: info;
+}
+.ivideo{
+    grid-area: video;
+}
+.ifooter{
+    grid-area: footer;
+}
+
+@media screen and (max-width: 320px){
+    .grid-in{
+        grid-template-columns: 200%;
+        grid-template-rows: 500px  500px 500px 100px;
+        grid-template-areas:
+        "nav"
+        "info"
+        "video"
+        "footer";
+    }
+    .footer{
+        width: 100%;
+    }
+    .li{
+        padding-left: 5px;
+        font-size: 25px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .sinopsis{
+        margin-left: 100px;
+    }
+    .epa{
+        margin-left: 200px;
+    }
+    .opa{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .grid-in{
+        grid-template-columns: 768px;
+        grid-template-rows: 500px  500px 500px 100px;
+        grid-template-areas:
+        "nav"
+        "info"
+        "video"
+        "footer";
+    }
+    .footer{
+        width: 100%;
+    }
+    .li{
+        padding-left: 25px;
+        font-size: 25px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .sinopsis{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .epa{
+        margin-left: 200px;
+    }
+    .opa{
+        width: 768;
+    }
+}
+
+.opa{
+    width: 500px;
+    height: 500px;
+}
+.apa{
+    display: inline-block;
+    margin-top: 50px;
+}
+.epa{
+    margin-left: 150px;
+}
+.grid-disco{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "imagen info";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 500px;
+}
+.dtitulo{
+    grid-area: titulo;
+}
+.dimagen{
+    grid-area: imagen;
+}
+.dinfo{
+    grid-area: info;
+}
+.ppp{
+    font-size: 40px;
+}
+.grid-int{
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "john"
+    "paul"
+    "george"
+    "ringo"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows:  700px 100px 800px 700px 700px 700px 100px ;
+}
+.intnav{
+    grid-area: nav;
+}
+.intmain{
+    grid-area: main;
+}
+.intjohn{
+    grid-area: john;
+}
+.intpaul{
+    grid-area: paul;
+}
+.intgeorge{
+    grid-area: george;
+}
+.intringo{
+    grid-area: ringo;
+}
+.intfooter{
+    grid-area: footer;
+}
+@media screen and(max-width: 320px){
+    .grid-disco{
+    grid-template-columns: 320px;
+    grid-template-rows: 500px 500px 500px 500px 500px 500px;
+    grid-template-areas: 
+    "titulo"
+    "imagen"
+    "info"
+    "canciones"
+    "lista"
+    "video";
+    }
+}
+.la{
+    margin-left: 400px;
+}
+.grid-hist{
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "1"
+    "2"
+    "3"
+    "4"
+    "5"
+    "6"
+    "7"
+    "8"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 700px 100px 700px 700px 700px 700px 700px 700px 700px 700px 100px ;
+}
+.hnav{
+    grid-area: nav;
+}
+.hmain{
+    grid-area: main;
+}
+.h1{
+    grid-area: h1;
+}
+.h2{
+    grid-area: h2;
+}
+.h3{
+    grid-area: h3;
+}
+.h4{
+    grid-area: h4;
+}
+.h5{
+    grid-area: h5;
+}
+.h6{
+    grid-area: h6;
+}
+.h7{
+    grid-area: h7;
+}
+.h9{
+    grid-area: h8;
+}
+.hfooter{
+    grid-area: footer;
+}

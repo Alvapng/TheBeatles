@@ -1,0 +1,62 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "imagen info"
+    "canciones canciones"
+    "lista video";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 500px 100px 500px;
+}
+
+.grtitulo{
+    grid-area: titulo;
+}
+.grimagen{
+    grid-area: imagen;
+}
+.grinfo{
+    grid-area: info;
+}
+.grcanciones{
+    grid-area: canciones;
+}
+.grlista{
+    grid-area: lista;
+}
+.grvideo{
+    grid-area: video;
+}
+
+@media screen and (max-width: 320px){
+    .grid-container{
+        grid-template-columns: 100%;
+        grid-template-rows: 200px 500px 800px 100px 300px 500px;
+        grid-template-areas: 
+        "titulo"
+        "imagen"
+        "info"
+        "canciones"
+        "lista"
+        "video"; 
+    }
+    .cc{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 600px){
+    .grid-container{
+        grid-template-columns: 100%;
+        grid-template-rows: 200px 500px 500px 100px 300px 500px;
+        grid-template-areas: 
+        "titulo"
+        "imagen"
+        "info"
+        "canciones"
+        "lista"
+        "video"; 
+    }
+    .cc{
+        font-size: 15px;
+    }
+}
