@@ -1,3 +1,9 @@
+@charset "UTF-8";
+/*grid de index*/
+.epa {
+  margin-left: 150px;
+}
+
 .grid-in {
   display: grid;
   grid-template-areas: "nav nav" "info video" "footer footer";
@@ -21,35 +27,7 @@
   grid-area: footer;
 }
 
-@media screen and (max-width: 320px) {
-  .grid-in {
-    grid-template-columns: 100%;
-    grid-template-rows: 500px 500px 100px 100px;
-    grid-template-areas: "nav" "info" "video" "footer";
-  }
-  .footer1 {
-    width: 100%;
-  }
-  .li {
-    padding-left: 5px;
-    font-size: 25px;
-  }
-  h1 {
-    font-size: 70px;
-  }
-  .sinopsis {
-    margin-left: 100px;
-  }
-  .epa {
-    margin-left: 200px;
-  }
-  .opa {
-    width: 320px;
-  }
-  .pfooter {
-    margin-left: 50px;
-  }
-}
+/*formato desktop de index*/
 @media screen and (max-width: 768px) {
   .grid-in {
     grid-template-columns: 768px;
@@ -77,6 +55,42 @@
     width: 768;
   }
 }
+/*formato mobile de index*/
+@media screen and (max-width: 320px) {
+  .grid-in {
+    grid-template-columns: 320px;
+    grid-template-rows: 500px 500px 500px 100px;
+    grid-template-areas: "nav" "info" "video" "footer";
+  }
+  #FondoRojo {
+    width: 100%;
+  }
+  .footer1 {
+    width: 100%;
+  }
+  .li {
+    padding-left: 5px;
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .sinopsis {
+    font-size: 40px;
+    margin-left: 100px;
+  }
+  .epa {
+    font-size: 50px;
+    margin-left: 0px;
+  }
+  .opa {
+    width: 320px;
+  }
+  .pfooter {
+    margin-left: 50px;
+  }
+}
+/*grid de discografia*/
 .grid-container {
   display: grid;
   grid-template-areas: "titulo titulo" "imagen info" "canciones canciones" "lista video";
@@ -108,6 +122,7 @@
   grid-area: video;
 }
 
+/*formato mobile de discografia*/
 @media screen and (max-width: 320px) {
   .grid-container {
     grid-template-columns: 100%;
@@ -118,6 +133,7 @@
     font-size: 15px;
   }
 }
+/*formato desktop de discografia*/
 @media screen and (max-width: 600px) {
   .grid-container {
     grid-template-columns: 100%;
@@ -128,6 +144,7 @@
     font-size: 15px;
   }
 }
+/*grid de discografia*/
 .grid-disco {
   display: grid;
   grid-template-areas: "titulo titulo" "imagen info";
@@ -147,6 +164,7 @@
   grid-area: info;
 }
 
+/*formato mobile de peliculas*/
 @media screen and (max-width: 320px) {
   .grid-disco {
     grid-template-columns: 100%;
@@ -162,6 +180,7 @@
     margin-top: 50px;
   }
 }
+/*formato desktop de discografia*/
 @media screen and (max-width: 600px) {
   .grid-disco {
     grid-template-columns: 100%;
@@ -177,6 +196,7 @@
     margin-top: 50px;
   }
 }
+/*grid de integrantes*/
 .grid-int {
   display: grid;
   grid-template-areas: "nav" "main" "john" "paul" "george" "ringo" "footer";
@@ -212,6 +232,7 @@
   grid-area: footer;
 }
 
+/*formato mobile de integrantes*/
 @media screen and (max-width: 320px) {
   .grid-int {
     grid-template-columns: 100%;
@@ -231,7 +252,7 @@
   .sinopsis {
     font-size: 12px;
   }
-  .imagen1 {
+  .imagen1, .imagen1--4, .imagen1--3, .imagen1--2 {
     width: 300px;
     height: 320px;
     margin-left: 0px;
@@ -252,6 +273,7 @@
     margin-left: 10px;
   }
 }
+/*formato desktop de integrantes*/
 @media screen and (max-width: 600px) {
   .grid-int {
     grid-template-columns: 100%;
@@ -271,7 +293,7 @@
   .sinopsis {
     font-size: 12px;
   }
-  .imagen1 {
+  .imagen1, .imagen1--4, .imagen1--3, .imagen1--2 {
     width: 300px;
     height: 320px;
     margin-left: 0px;
@@ -292,6 +314,7 @@
     margin-left: 10px;
   }
 }
+/*grid de historia*/
 .grid-hist {
   display: grid;
   grid-template-areas: "nav" "main" "1" "2" "3" "4" "5" "6" "7" "8" "footer";
@@ -343,6 +366,7 @@
   grid-area: footer;
 }
 
+/*formato mobile de historia*/
 @media screen and (max-width: 320px) {
   .grid-hist {
     grid-template-areas: "nav" "main" "1" "2" "3" "4" "5" "6" "7" "8" "footer";
@@ -350,10 +374,7 @@
     grid-template-rows: 700px 100px 700px 700px 700px 700px 700px 700px 700px 700px 100px;
   }
 }
-h1 {
-  color: red;
-}
-
+/*fondo de index*/
 #FondoRojo {
   background-image: url(../imagenes/descarga\ \(17\).jpg);
   background-repeat: no-repeat;
@@ -362,6 +383,7 @@ h1 {
   overflow: hidden;
 }
 
+/*fondo de discografia*/
 .fondoD {
   background-image: url(../imagenes/beatles-1-1-1024x740.jpg);
   background-repeat: no-repeat;
@@ -370,6 +392,7 @@ h1 {
   margin-top: 0px;
 }
 
+/*fondo de historia*/
 .fondoh {
   background-image: url(../imagenes/THE-BEATLES.png);
   background-repeat: no-repeat;
@@ -379,6 +402,7 @@ h1 {
   margin-top: 0px;
 }
 
+/*fondo de peliculas*/
 .fondop {
   background-image: url(../imagenes/The-Beatles-peliculas-900x506.jpg);
   background-repeat: no-repeat;
@@ -387,6 +411,7 @@ h1 {
   margin-top: 0px;
 }
 
+/*estilo de las sinopsis*/
 .sinopsis {
   font-size: 28px;
   margin-left: 30px;
@@ -418,6 +443,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*estilo de los menu de navegacion*/
 .caja0 {
   height: 50px;
   width: 1340px;
@@ -430,7 +456,7 @@ p {
 }
 
 .iframe {
-  margin-left: 350px;
+  margin-left: 10px;
 }
 
 .li {
@@ -446,26 +472,31 @@ p {
   background-color: #116D91;
 }
 
-.imagen1 {
+/*imagen de johnn*/
+.imagen1, .imagen1--4, .imagen1--3, .imagen1--2 {
   margin-left: 450px;
 }
 
-.imagen2 {
+/*imagen de paul*/
+.imagen1--2 {
   margin-left: 350px;
 }
 
-.imagen3 {
+/*imagen de george*/
+.imagen1--3 {
   height: 500px;
   width: 400px;
   margin-left: 450px;
 }
 
-.imagen4 {
+/*imagen de ringo*/
+.imagen1--4 {
   height: 500px;
   width: 450px;
   margin-left: 450px;
 }
 
+/*estilo de las imagenes de discografia*/
 .pps {
   height: 500px;
   width: 500px;
@@ -479,10 +510,12 @@ p {
   font-size: 24px;
 }
 
+/*tamaño de fuente de main*/
 .main {
   font-size: 24px;
 }
 
+/*tamaño del footer*/
 .footer {
   height: 50px;
   width: 100%;
@@ -492,11 +525,12 @@ p {
 
 .footer1 {
   height: 50px;
-  width: 200%;
+  width: 100%;
   background-color: #116D91;
   margin-bottom: 0px;
 }
 
+/*contenido del footer*/
 .pfooter {
   color: #98D3E3;
   text-align: center;

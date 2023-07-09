@@ -1,3 +1,4 @@
+/*grid de integrantes*/
 .grid-int{
     display: grid;
     grid-template-areas: 
@@ -32,6 +33,8 @@
 .intfooter{
     grid-area: footer;
 }
+
+/*formato mobile de integrantes*/
 @media screen and (max-width: 320px){
     .grid-int{
         grid-template-columns: 100%;
@@ -79,6 +82,9 @@
         margin-left: 10px;
     }
 }
+
+
+/*formato desktop de integrantes*/
 @media screen and (max-width: 600px){
     .grid-int{
         grid-template-columns: 100%;

@@ -1,3 +1,4 @@
+/*grid de discografia*/
 .grid-container{
     display: grid;
     grid-template-areas: 
@@ -28,6 +29,7 @@
     grid-area: video;
 }
 
+/*formato mobile de discografia*/
 @media screen and (max-width: 320px){
     .grid-container{
         grid-template-columns: 100%;
@@ -44,6 +46,8 @@
         font-size: 15px;
     }
 }
+
+/*formato desktop de discografia*/
 @media screen and (max-width: 600px){
     .grid-container{
         grid-template-columns: 100%;

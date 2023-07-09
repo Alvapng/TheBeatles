@@ -6,9 +6,7 @@
 
 $colorprincipal: #116D91;
 
-h1{
-    color: red;
-}
+/*fondo de index*/
 #FondoRojo{
     background-image: url(../imagenes/descarga\ \(17\).jpg);
     background-repeat: no-repeat;
@@ -16,6 +14,8 @@ h1{
     height: 500px;
     overflow: hidden;
 }
+
+/*fondo de discografia*/
 .fondoD{
     background-image: url(../imagenes/beatles-1-1-1024x740.jpg);
     background-repeat: no-repeat;
@@ -23,6 +23,8 @@ h1{
     height: 500px;
     margin-top: 0px;
 }
+
+/*fondo de historia*/
 .fondoh{
     background-image: url(../imagenes/THE-BEATLES.png);
     background-repeat: no-repeat;
@@ -32,6 +34,8 @@ h1{
     margin-top: 0px;
     
 }
+
+/*fondo de peliculas*/
 .fondop{
     background-image: url(../imagenes/The-Beatles-peliculas-900x506.jpg);
     background-repeat: no-repeat;
@@ -39,10 +43,13 @@ h1{
     height: 500px;
     margin-top: 0px;
 }
+
+/*estilo de las sinopsis*/
 .sinopsis{
     font-size: 28px;
     margin-left: 30px;
 }
+
 h1{
     color: #52C0DE;
     font-family: fantasy;
@@ -65,17 +72,20 @@ p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*estilo de los menu de navegacion*/
 .caja0{
     height: 50px;
     width: 1340px;
     margin-top: 0px;
     background-color: $colorprincipal;
 }
+
 .caja1{
     position: sticky;
 }
 .iframe{
-    margin-left: 350px;
+    margin-left: 10px;
 }
 .li{
     color: #98D3E3;
@@ -88,22 +98,32 @@ p{
     margin-left: 0px;
     background-color: $colorprincipal;
 }  
+
+/*imagen de johnn*/
 .imagen1{
     margin-left: 450px;
 }
-.imagen2{
+/*imagen de paul*/
+.imagen1--2{
+    @extend .imagen1;
     margin-left: 350px;
 }  
-.imagen3{
+/*imagen de george*/
+.imagen1--3{
+    @extend .imagen1;
     height: 500px;
     width: 400px;
     margin-left: 450px;
 }
-.imagen4{
+/*imagen de ringo*/
+.imagen1--4{
+    @extend .imagen1;
     height: 500px;
     width: 450px;
     margin-left: 450px;
 }
+
+/*estilo de las imagenes de discografia*/
 .pps{
     height: 500px;
     width: 500px;
@@ -115,9 +135,12 @@ p{
     display: block;
     font-size: 24px;
 }
+/*tamaño de fuente de main*/
 .main{
     font-size: 24px;
 }
+
+/*tamaño del footer*/
 .footer{
     height: 50px;
     width: 100%;
@@ -126,10 +149,11 @@ p{
 }
 .footer1{
     height: 50px;
-    width: 200%;
+    width: 100%;
     background-color: $colorprincipal;
     margin-bottom: 0px;
 }
+/*contenido del footer*/
 .pfooter{
     color: #98D3E3;
     text-align: center;

@@ -1,3 +1,4 @@
+/*grid de historia*/
 .grid-hist{
     display: grid;
     grid-template-areas: 
@@ -48,6 +49,8 @@
 .hfooter{
     grid-area: footer;
 }
+
+/*formato mobile de historia*/
 @media screen and (max-width: 320px){
     .grid-hist{
         grid-template-areas: 
