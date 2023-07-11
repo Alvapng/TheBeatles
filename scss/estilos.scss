@@ -11,7 +11,8 @@ $colorprincipal: #116D91;
     background-image: url(../imagenes/descarga\ \(17\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -21,6 +22,7 @@ $colorprincipal: #116D91;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    width: 100%;
     margin-top: 0px;
 }
 
@@ -176,7 +178,7 @@ p{
 
 
 .opa{
-    width: 500px;
+    width: 100%;
     height: 500px;
 }
 .apa{
